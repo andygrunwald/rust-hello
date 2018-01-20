@@ -1,5 +1,10 @@
 # .goreleaser.yml
 # Build customization
+rust:
+- target:
+  - foo
+  binary: hello
+
 # Archive customization
 archive:
   format: tar.gz
